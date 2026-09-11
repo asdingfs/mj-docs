@@ -7,20 +7,18 @@ site:
       title: Guide
       path: product
       default: true
-      draft: true
       content:
         directory: ./guide
     - type: space
       key: space-2
       title: Changelog
       path: changelog
-      draft: true
       content:
         directory: ./changelog
     - type: space
       key: space-3
       title: Help Center
       path: help
-      draft: true
+      hidden: true
       content:
         directory: ./help
