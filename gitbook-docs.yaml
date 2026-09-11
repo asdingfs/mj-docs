@@ -13,6 +13,7 @@ site:
       key: space-2
       title: Changelog
       path: changelog
+      hidden: true
       content:
         directory: ./changelog
     - type: space
