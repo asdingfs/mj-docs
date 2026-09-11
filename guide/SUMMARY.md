@@ -1,27 +1,12 @@
 # Table of contents
 
-* [Welcome](README.md)
+## About
 
-## Getting Started
+* [Who we are](README.md)
+* [The dream journey](about/the-dream-journey.md)
+* [How to contribute](about/how-to-contribute.md)
 
-* [Getting started](getting-started/getting-started.md)
-* [Quickstart](getting-started/quickstart.md)
-* [Your first project](getting-started/your-first-project.md)
+## Features
 
-## Core concepts
-
-* [Core concepts](core-concepts/core-concepts.md)
-* [Workspaces and projects](core-concepts/workspaces-and-projects.md)
-* [Permissions](core-concepts/permissions.md)
-
-## Guides
-
-* [Guides](guides/guides.md)
-* [Custom domains](guides/custom-domains.md)
-* [Automations](guides/automations.md)
-
-## Reference
-
-* [Reference](reference/reference.md)
-* [Configuration](reference/configuration.md)
-* [Glossary](reference/glossary.md)
+* [My Stories](features/my-stories.md)
+* [My Chapters](features/my-chapters.md)
