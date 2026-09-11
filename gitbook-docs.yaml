@@ -1,0 +1,26 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: MyJourney - Docs
+  structure:
+    - type: space
+      key: space-1
+      title: Product Guide
+      path: product
+      default: true
+      draft: true
+      content:
+        directory: ./guide
+    - type: space
+      key: space-2
+      title: Changelog
+      path: changelog
+      draft: true
+      content:
+        directory: ./changelog
+    - type: space
+      key: space-3
+      title: Help Center
+      path: help-center
+      draft: true
+      content:
+        directory: ./help
