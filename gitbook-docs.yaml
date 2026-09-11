@@ -4,7 +4,7 @@ site:
   structure:
     - type: space
       key: space-1
-      title: Product Guide
+      title: Guide
       path: product
       default: true
       draft: true
@@ -20,7 +20,7 @@ site:
     - type: space
       key: space-3
       title: Help Center
-      path: help-center
+      path: help
       draft: true
       content:
         directory: ./help
