@@ -2,9 +2,7 @@
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Something exciting is on the way!&#x20;
-
-Our upcoming MyJourney guide is here for you to find more information about why we do what we do, and details about our features.
+We're finishing up our User Guide for MyJourney for you to find more information about why we do what we do, and more details about every feature on our platform.
 
 Please stay tuned, the guide is coming soon!
 
