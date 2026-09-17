@@ -1,8 +1,10 @@
 # Table of contents
 
+* [Work In Progress](README.md)
+
 ## About
 
-* [Who we are](README.md)
+* [What is MyJourney?](about/what-is-myjourney.md)
 * [The dream journey](about/the-dream-journey.md)
 * [How to contribute](about/how-to-contribute.md)
 
