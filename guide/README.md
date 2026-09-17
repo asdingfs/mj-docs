@@ -1,4 +1,6 @@
-# Work In Progress
+# MyJourney User Guide
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Something exciting is on the way!&#x20;
 

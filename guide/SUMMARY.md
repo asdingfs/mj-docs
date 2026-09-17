@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Work In Progress](README.md)
+* [MyJourney User Guide](README.md)
 
 ## About
 
