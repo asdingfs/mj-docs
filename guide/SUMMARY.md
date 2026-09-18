@@ -12,7 +12,7 @@
 
 * [My Stories](features/my-stories/README.md)
   * [Selecting a story to work on](features/my-stories/selecting-a-story-to-work-on.md)
-  * [Creating a chapter](features/my-stories/creating-a-chapter.md)
+  * [Creating a story](features/my-stories/creating-a-story.md)
   * [Customising a story's header](features/my-stories/customising-a-storys-header.md)
   * [Managing chapters inside a story](features/my-stories/managing-chapters-inside-a-story.md)
   * [Publishing & sharing a story](features/my-stories/publishing-and-sharing-a-story.md)

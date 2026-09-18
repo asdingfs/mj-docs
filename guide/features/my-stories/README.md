@@ -1,12 +1,36 @@
 # My Stories
 
-## My Stories
+**My Stories** turns your experiences into clear, meaningful narratives for the people you want to reach. A 'Story' is a collection of meaningful chapters that you personally curate to better tell a particular story to a particular audience.
 
-Hey, explorer! Fab.io is here to help you shape your journey. ✨
+### Navigating to My Stories (Web)
 
-**My Stories** turns your experiences into clear, meaningful narratives for the people you want to reach. A Story is a curated chapter of your life. It brings together the moments that best support one message.
+To navigate to My Stories, you can click on the top navigation bar:
 
-Start with the chapters you have already created in [my-chapters](../my-chapters/ "mention"). Then reuse and arrange them for a specific audience. Your experiences stay yours. The story changes with the opportunity.
+<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.26.29.png" alt=""><figcaption></figcaption></figure>
+
+### Navigating to My Stories (Mobile)
+
+Or under the hamburger icon menu: (if you're accessing it from smaller screen sizes, e.g. mobile view)
+
+<figure><img src="../../.gitbook/assets/00a.jpg" alt=""><figcaption></figcaption></figure>
+
+and then click on My Stories
+
+<figure><img src="../../.gitbook/assets/00b.jpg" alt=""><figcaption></figcaption></figure>
+
+### 'My Stories' tab overview
+
+You'll see this page once you have navigated in
+
+<figure><img src="../../.gitbook/assets/01.jpg" alt=""><figcaption></figcaption></figure>
+
+If you have created some chapters with [my-chapters](../my-chapters/ "mention"), curating your stories
+
+{% hint style="info" %}
+Curating your story is a lot easier if you have previously created some chapters! That's why MyJourney team highly encourage you to take a small, but consistent and frequent step to clarify the story of your life, one chapter at a time!
+{% endhint %}
+
+Then reuse and arrange them for a specific audience. Your experiences stay yours. The story changes with the opportunity.
 
 ### Make each story feel right
 
