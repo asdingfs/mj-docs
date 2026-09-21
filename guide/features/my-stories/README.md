@@ -24,10 +24,8 @@ You'll see this page once you have navigated in
 
 <figure><img src="../../.gitbook/assets/01.jpg" alt=""><figcaption></figcaption></figure>
 
-If you have created some chapters with [my-chapters](../my-chapters/ "mention"), curating your stories
-
 {% hint style="info" %}
-Curating your story is a lot easier if you have previously created some chapters! That's why MyJourney team highly encourage you to take a small, but consistent and frequent step to clarify the story of your life, one chapter at a time!
+Curating your story is a lot easier if you have previously created some chapters in [my-chapters](../my-chapters/ "mention")! That's why MyJourney team highly encourage you to take a small, but consistent and frequent step to clarify the story of your life, one chapter at a time!
 {% endhint %}
 
 Then reuse and arrange them for a specific audience. Your experiences stay yours. The story changes with the opportunity.
