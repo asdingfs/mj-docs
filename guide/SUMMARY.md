@@ -6,7 +6,8 @@
 
 * [What is MyJourney?](about/what-is-myjourney.md)
 * [The dream journey](about/the-dream-journey.md)
-* [How to contribute](about/how-to-contribute.md)
+* [MyJourney Champions](about/myjourney-champions.md)
+* [Verification flow](about/verification-flow.md)
 
 ## Features
 
@@ -18,6 +19,7 @@
   * [Publishing & sharing a story](features/my-stories/publishing-and-sharing-a-story.md)
 * [My Chapters](features/my-chapters/README.md)
   * [Creating a chapter](features/my-chapters/creating-a-chapter.md)
+  * [Chapter cover & banner image](features/my-chapters/chapter-cover-and-banner-image.md)
   * [Overview of chapter editing tools](features/my-chapters/overview-of-chapter-editing-tools/README.md)
     * [Text tools](features/my-chapters/overview-of-chapter-editing-tools/text-tools.md)
   * [SUTD verified elements](features/my-chapters/sutd-verified-elements.md)

@@ -1,0 +1,2 @@
+# Chapter cover & banner image
+

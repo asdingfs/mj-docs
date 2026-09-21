@@ -26,9 +26,9 @@ After clicking on 'Choose Image', select the image that you want to upload
 
 You'll then be asked to preview the crop for the cover image:
 
-<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.07.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.07.01.png" alt=""><figcaption></figcaption></figure>
 
-Then, click on 'Use cropped image' after you're happy with the crop:
+Then, move the selection to your desired crop, click on 'Use cropped image' after you're happy with the looks:
 
 <figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.07.29 (1).png" alt=""><figcaption></figcaption></figure>
 
