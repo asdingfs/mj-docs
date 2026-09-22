@@ -1,0 +1,212 @@
+{
+  "reviewed_on": "2026-09-22",
+  "code_revision": "737a3e5daa5553a62319ccebcc1af0a99656dca4",
+  "verification": "Read-only inspection of named branch Git objects; remote tip matched on 2026-09-22. Original Chapter creation screenshots verified by owner. Other deployed behaviour unverified. Source drift requires review, not automatic prose changes.",
+  "published_directories": [
+    "guide",
+    "help",
+    "changelog"
+  ],
+  "gitbook_config_sha256": "01d12ac5a0923b93efa9079db9298e482c0bbdce1d6edea0b240c415ec1c3f86",
+  "pages": {
+    "guide/README.md": "2f4eaaa747774b8a2f21c966c479d5edbd588bde9ec68e429699831e9efa46d6",
+    "guide/about/what-is-myjourney.md": "7902acbe8b5de20bd5600170033ae9839906d689f29b186ebb9bfd4abaa8b6ac",
+    "guide/features/my-chapters/README.md": "e5619be7107ff83fb0a91d8a070e68f8832e6ee44facf12e0fd96ddf4b05ff21",
+    "guide/features/my-chapters/chapter-cover-and-banner-image.md": "142956e57df32801eb8f109a35500de888f0baecbab17fa06a98314e6552fd23",
+    "guide/features/my-chapters/creating-a-chapter.md": "3b25f5d246e778664e632d5609bd316e175bc7f1e96a7490a439921170fcbf56",
+    "guide/features/my-chapters/customising-chapters-cover-image.md": "feb7a52e72dbf4e886d2cc17a2f49a8422b22b01f9a8ae3f77de72bb9d25993c",
+    "guide/features/my-chapters/overview-of-chapter-editing-tools/README.md": "c069bcd33425ff1b31e580ce376b4ce24384313f1cd678276cc4ed1ed5e7c61e",
+    "guide/features/my-chapters/overview-of-chapter-editing-tools/text-tools.md": "9b2781b0afd324a779d8d37936ffdc4c8092ea3b6855d4c2b57780c46ace0df1",
+    "guide/features/my-chapters/publishing-and-sharing-a-chapter-draft.md": "63d88ac727197b9b882efca7843f0944fca4ca5a79a84dc3bab4b9be56589219",
+    "guide/features/my-chapters/sutd-verified-elements.md": "ddaf4bc1a17484eebbf43c122175ef7823652d86718cdc90ae2b4de88bef0a3e",
+    "guide/features/my-stories/README.md": "6052ef8ca3baad7d6abfe8605b697c646bcdaba7cb8c7e0b644bd9db62477e3c",
+    "guide/features/my-stories/creating-a-story.md": "61c13335aa2b3e66bd681b44b767193b0a218f6199a5de647a85d46fa3555179",
+    "guide/features/my-stories/customising-a-storys-header.md": "b56047936bedd8746946c6403bce21d7af271a6ea0b3b2b128bf9c3f92edcb2a",
+    "guide/features/my-stories/managing-chapters-inside-a-story.md": "3df42b0e42f345ff302d37510a56e523d10c7741f5a9b2c1e5df3b56c805d608",
+    "guide/features/my-stories/publishing-and-sharing-a-story.md": "e96293dbe7da1047c6e4e7860c925df3d489623a8f7112512663f42bda7662a0",
+    "guide/features/my-stories/selecting-a-story-to-work-on.md": "ad76c841bac9d09631a469de844a284fd3f3239a08660848b02a52dc7271195e"
+  },
+  "sources": {
+    "apps/odyssey/data_objects/block_contracts.py": "c814849a2223ebfadc581376bff34263e6337f6829c2295691b7a024c673d272",
+    "apps/odyssey/data_objects/block_settings/canvas.py": "92839a4ad83c45e92e9b07c84e0eada0b098d4a4a66bc9365d07be9465ff9291",
+    "apps/odyssey/data_objects/builder_source.py": "e1af5cd5299c1093cc02deba110f5a344dd5eed54bd94b1e392c41a2178ce46c",
+    "apps/odyssey/data_objects/chapter_data.py": "d2ddfadf9c4b95d6f0219db00531d780a7c8d6c399ba3d153ad3f97c58eb3de6",
+    "apps/odyssey/data_objects/image_crop.py": "687ee399d700299b9fa082367d778db71296e00c661bd8c13d7179b094028527",
+    "apps/odyssey/data_objects/upload_rules.py": "642cb0fde98b08592f1e7ac79a62ba420b45652b917528f8fad3254866601a22",
+    "apps/odyssey/models/chapter.py": "8bb729b9745b585ebf079636475b5e7517dba7c23f1296a6d9bdbb0c71f8a5f6",
+    "apps/odyssey/repositories/chapter_repository.py": "8372730126462ccbabdf328ea36150a04afc6b8796424d6d0b09e42b2ac20796",
+    "apps/odyssey/repositories/chapter_version_repository.py": "2b3d75d3ee88181b06e6f3f239442ab7e428d77464ab358721b95d4acfd7363e",
+    "apps/odyssey/repositories/story_chapter_repository.py": "242f3e064c15df9eef8560b3a41225c033d02a2dedbad9222980e72e61858977",
+    "apps/odyssey/services/builder_source_service.py": "6393df1749ac4ba82657efca5da624fef7458f01ae9236b63384b8fe0fdda94b",
+    "apps/odyssey/services/chapter_asset_service.py": "5e7ba742b50e76106d8ea2ce6c6d988dc6f1a09d6595adff69dafb256f13740c",
+    "apps/odyssey/services/chapter_draft_service.py": "2be164d6eb5526e38a23ac537e036ebcdc0044cc156b082b265bdaf8b2e44c2e",
+    "apps/odyssey/services/chapter_section_response_service.py": "c658b0ee6c79649e48d83a197a5e0eac75e520bd620ddf329d37a50b198a8306",
+    "apps/odyssey/services/chapter_service.py": "b745c53d4890889952a9ab04241a6a570235874167e2ab67f178953f91c1b8b3",
+    "apps/odyssey/services/cover_image_upload_service.py": "639c06d02d2934112e321e6d53723edae77d8dd92495a882050fdd33245187b4",
+    "apps/odyssey/services/story_service.py": "5a155422569ec7473e01a6440c9406ee0759348ec44b70a7d10ab6e59fa14e84",
+    "apps/odyssey/templates/odyssey/partials/builder/_header.html": "566a79ee5b88f9e657c0d4b2e467fd8abe6e50d686375e1790ec1b9a7ef25ca6",
+    "apps/odyssey/templates/odyssey/partials/builder/_modals.html": "36b6d0bac5d4d60558b2e3d653a1bc73d26acd5db8b17acb083baf04ac3b6284",
+    "apps/odyssey/templates/odyssey/partials/builder/_settings_panel.html": "291d80872dc32ee1ff81c36a4a4bbb54d7d0e1e4719a0bc921b0a2c72c9b9e49",
+    "apps/odyssey/templates/odyssey/partials/builder/_source_panel.html": "ab9555d567777bd641aa072b21e7e01807cd6bd78ae47c16b9bc19c2af4bcbdd",
+    "apps/odyssey/templates/odyssey/partials/builder/settings/_canvas_toolbar.html": "4c137ddfc6083ac16d1731070b21d9d3a298ff7eb4d838b0b9f2c1998aff53c3",
+    "apps/odyssey/templates/odyssey/partials/builder/settings/_text_toolbar.html": "08385af20315082de2741e0297c0ebd9832350a8291d300a88bb4ffa07274402",
+    "apps/odyssey/templates/odyssey/partials/library/_chapter_dialogs.html": "99023e26d944232e406f86886b35e668b3e3a84a3966d4d70914fe39bcf203d2",
+    "apps/odyssey/templates/odyssey/partials/library/_chapter_grid.html": "b6be3cd41875b1460fe0785a44e53917293f12fed833524ca5aa4e0541c140c9",
+    "apps/odyssey/templates/odyssey/partials/shared/_image_crop_dialog.html": "c2f635f97e0e45d65485367afe6952c12c19539a099514a92e71e09c88b42507",
+    "apps/odyssey/templates/odyssey/partials/story/_chapter_card.html": "91e0db78b97ee474b56b48b922e034f1361f7fcb318d3860f7aff4db748f112f",
+    "apps/odyssey/templates/odyssey/stories.html": "34587fb0f05689e233257f856c4a530d44145ba82f94caf6fc11176d7a95d577",
+    "apps/odyssey/tests/test_chapter_creation.py": "c438b52899dbfafd684e5c43b8a179931bda6a86b5e750f688ffebebb206fe2e",
+    "apps/odyssey/tests/test_cover_image_uploads.py": "dde96bfa447d3f46efbfb642320d88af20f3c678973eca79f3c1ed918f10669a",
+    "apps/odyssey/views/chapters.py": "b426e77f7f2ed8904c8043c66545f6ee06c125f944973c6a1ade1b60ecb35208",
+    "apps/odyssey/views/cover_image_uploads.py": "6d22d6af60ec9a2393832a1099393bed5eac2366665224b05c41269936fa5acf",
+    "apps/odyssey/views/public.py": "095b239d1c69ecc5dd9ad4faa6b660de9a3abc77c89ab404cd44b0643b8f281f",
+    "apps/odyssey/views/stories.py": "82806c41c7dc195feeab90a357be70b73eed4a62a318256ac0f7adcd7c328a51",
+    "apps/shared/templates/header.html": "b8914dd2a09888c8e98bb0c513f348128b1d2e78879196e80bf30efac54e968b",
+    "src-frontend/js/odyssey/builder/canvas_settings.js": "f19a36568d0b95c0aadcb48281d22d25a74eb5e6ebeadb2d78c2cafd8b572b22",
+    "src-frontend/js/odyssey/builder/save.js": "a7b6e44bd34bad921985bb04a7d02d7f3e8d79e6523466a28dbcf1ab1b86c1df",
+    "src-frontend/js/odyssey/builder/source_panel.js": "5ec57a829d9e8cf49e2e5672e082abe8b2620a02b3f8126d2caf35f277e8d521",
+    "src-frontend/js/odyssey/builder/source_panel_rows.js": "17b9fedb70d4a2e50883cb84a5c3b230716caf92d2c7d7cfa1920bd12270a008",
+    "src-frontend/js/odyssey/builder/text_toolbar.js": "40d49e88dc0691fb31964112094d19c2c228739c9f820154e97bfce62f75d2a8",
+    "src-frontend/js/odyssey/chapter_actions.js": "d2f4f1264f1ea20b788ea0924c3bff12b160bace6089a9f4a4747f3c70a4d2b6",
+    "src-frontend/js/odyssey/chapter_builder.js": "bf240f95fc32b27eeb9d89951d6504537b14ce51c4cdb2a37e7f4e96771bb651",
+    "src-frontend/js/odyssey/image_cropper.js": "8e807169a8540a1d57399d9742d33d40d279a86c78cfdf77740a25164390cc12",
+    "src-frontend/js/odyssey/prepared_image_upload.js": "9921d44af376ade069bcba8baf19ef779aa445c25a91aae1a68675020f9a378f",
+    "src-frontend/js/odyssey/stories.js": "1de21b0649cd55dce7909c6f4782cfab0e67641bdc1f439fae2afa51541e928b"
+  },
+  "groups": [
+    {
+      "name": "navigation and library",
+      "pages": [
+        "guide/README.md",
+        "guide/about/what-is-myjourney.md",
+        "guide/features/my-stories/README.md",
+        "guide/features/my-stories/selecting-a-story-to-work-on.md",
+        "guide/features/my-chapters/README.md",
+        "guide/features/my-chapters/creating-a-chapter.md"
+      ],
+      "sources": [
+        "apps/shared/templates/header.html",
+        "apps/odyssey/views/chapters.py",
+        "apps/odyssey/templates/odyssey/partials/library/_chapter_grid.html",
+        "apps/odyssey/templates/odyssey/partials/library/_chapter_dialogs.html",
+        "apps/odyssey/templates/odyssey/partials/story/_chapter_card.html",
+        "src-frontend/js/odyssey/chapter_actions.js"
+      ]
+    },
+    {
+      "name": "stories",
+      "pages": [
+        "guide/features/my-stories/README.md",
+        "guide/features/my-stories/selecting-a-story-to-work-on.md",
+        "guide/features/my-stories/creating-a-story.md",
+        "guide/features/my-stories/customising-a-storys-header.md",
+        "guide/features/my-stories/managing-chapters-inside-a-story.md",
+        "guide/features/my-stories/publishing-and-sharing-a-story.md"
+      ],
+      "sources": [
+        "apps/odyssey/templates/odyssey/stories.html",
+        "src-frontend/js/odyssey/stories.js",
+        "apps/odyssey/views/stories.py",
+        "apps/odyssey/services/story_service.py",
+        "apps/odyssey/repositories/story_chapter_repository.py"
+      ]
+    },
+    {
+      "name": "publication and shared chapter details",
+      "pages": [
+        "guide/README.md",
+        "guide/about/what-is-myjourney.md",
+        "guide/features/my-stories/managing-chapters-inside-a-story.md",
+        "guide/features/my-stories/publishing-and-sharing-a-story.md",
+        "guide/features/my-chapters/README.md",
+        "guide/features/my-chapters/chapter-cover-and-banner-image.md",
+        "guide/features/my-chapters/customising-chapters-cover-image.md",
+        "guide/features/my-chapters/publishing-and-sharing-a-chapter-draft.md"
+      ],
+      "sources": [
+        "apps/odyssey/views/public.py",
+        "apps/odyssey/services/chapter_service.py",
+        "apps/odyssey/services/chapter_draft_service.py",
+        "apps/odyssey/services/chapter_section_response_service.py",
+        "apps/odyssey/services/chapter_asset_service.py",
+        "apps/odyssey/repositories/chapter_version_repository.py",
+        "apps/odyssey/repositories/chapter_repository.py"
+      ]
+    },
+    {
+      "name": "editor",
+      "pages": [
+        "guide/features/my-chapters/README.md",
+        "guide/features/my-chapters/creating-a-chapter.md",
+        "guide/features/my-chapters/chapter-cover-and-banner-image.md",
+        "guide/features/my-chapters/customising-chapters-cover-image.md",
+        "guide/features/my-chapters/overview-of-chapter-editing-tools/README.md",
+        "guide/features/my-chapters/overview-of-chapter-editing-tools/text-tools.md",
+        "guide/features/my-chapters/sutd-verified-elements.md",
+        "guide/features/my-chapters/publishing-and-sharing-a-chapter-draft.md"
+      ],
+      "sources": [
+        "src-frontend/js/odyssey/chapter_builder.js",
+        "src-frontend/js/odyssey/builder/save.js",
+        "src-frontend/js/odyssey/builder/canvas_settings.js",
+        "apps/odyssey/templates/odyssey/partials/builder/_header.html",
+        "apps/odyssey/templates/odyssey/partials/builder/_modals.html",
+        "apps/odyssey/templates/odyssey/partials/builder/_settings_panel.html",
+        "apps/odyssey/templates/odyssey/partials/builder/settings/_canvas_toolbar.html",
+        "apps/odyssey/data_objects/block_contracts.py",
+        "apps/odyssey/data_objects/upload_rules.py"
+      ]
+    },
+    {
+      "name": "text tools",
+      "pages": [
+        "guide/features/my-chapters/overview-of-chapter-editing-tools/text-tools.md"
+      ],
+      "sources": [
+        "apps/odyssey/templates/odyssey/partials/builder/settings/_text_toolbar.html",
+        "src-frontend/js/odyssey/builder/text_toolbar.js"
+      ]
+    },
+    {
+      "name": "source records",
+      "pages": [
+        "guide/features/my-chapters/overview-of-chapter-editing-tools/README.md",
+        "guide/features/my-chapters/sutd-verified-elements.md"
+      ],
+      "sources": [
+        "apps/odyssey/templates/odyssey/partials/builder/_source_panel.html",
+        "apps/odyssey/data_objects/builder_source.py",
+        "apps/odyssey/services/builder_source_service.py",
+        "src-frontend/js/odyssey/builder/source_panel.js",
+        "src-frontend/js/odyssey/builder/source_panel_rows.js"
+      ]
+    },
+    {
+      "name": "image cropping and uploads",
+      "pages": [
+        "guide/features/my-chapters/creating-a-chapter.md",
+        "guide/features/my-chapters/chapter-cover-and-banner-image.md",
+        "guide/features/my-chapters/customising-chapters-cover-image.md",
+        "guide/features/my-chapters/README.md",
+        "guide/features/my-chapters/overview-of-chapter-editing-tools/README.md",
+        "guide/features/my-chapters/publishing-and-sharing-a-chapter-draft.md",
+        "guide/features/my-stories/creating-a-story.md",
+        "guide/features/my-stories/customising-a-storys-header.md"
+      ],
+      "sources": [
+        "apps/odyssey/data_objects/block_settings/canvas.py",
+        "apps/odyssey/data_objects/chapter_data.py",
+        "apps/odyssey/data_objects/image_crop.py",
+        "apps/odyssey/models/chapter.py",
+        "apps/odyssey/services/cover_image_upload_service.py",
+        "apps/odyssey/templates/odyssey/partials/shared/_image_crop_dialog.html",
+        "apps/odyssey/tests/test_chapter_creation.py",
+        "apps/odyssey/tests/test_cover_image_uploads.py",
+        "apps/odyssey/views/cover_image_uploads.py",
+        "src-frontend/js/odyssey/image_cropper.js",
+        "src-frontend/js/odyssey/prepared_image_upload.js"
+      ]
+    }
+  ],
+  "source_ref": "origin/feature/ui-improvement"
+}

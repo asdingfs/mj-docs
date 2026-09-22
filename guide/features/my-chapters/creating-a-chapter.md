@@ -1,41 +1,59 @@
 ---
-description: This page outlines the chapter creation process in MyJourney
+description: Create a Chapter, choose an optional cover, and adjust its crop before saving.
 ---
 
-# Creating a chapter
+# Creating a Chapter
 
-To create a chapter, please first navigate to 'My Stories' or 'My Chapters' tab
+Start with one experience you want to remember or explain. Give it a title, choose a cover if you like, and make the crop your own.
 
-<figure><img src="../../.gitbook/assets/MyJourney.jpg" alt=""><figcaption></figcaption></figure>
+Use a desktop screen to continue into the Chapter editor.
 
-Click on either, and click on 'Create new Chapter' button:
+## 1. Open My Stories or My Chapters
 
-<figure><img src="../../.gitbook/assets/My Chapters - MyJourney.jpg" alt=""><figcaption></figcaption></figure>
+Select **My Stories** or **My Chapters** from the navigation.
 
-{% hint style="info" %}
-NOTE: If you create a Chapter through 'My Story', the newly created will be automatically added to the story that's currently selected! This is how to [selecting-a-story-to-work-on.md](../my-stories/selecting-a-story-to-work-on.md "mention")&#x20;
-{% endhint %}
+<figure><img src="../../.gitbook/assets/MyJourney.jpg" alt="MyJourney navigation showing where to open My Stories or My Chapters."><figcaption>Choose where you want to start.</figcaption></figure>
 
-Next, type in the title and choose an appropriate cover image
+If you start from **My Stories**, [select the Story](../my-stories/selecting-a-story-to-work-on.md) first. Your new Chapter will be added to that Story automatically.
 
-<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.06.03.png" alt=""><figcaption></figcaption></figure>
+## 2. Create a new Chapter
 
-After clicking on 'Choose Image', select the image that you want to upload
+Select the dashed **Create new Chapter** card.
 
-<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.06.37.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/My Chapters - MyJourney.jpg" alt="Orange outline and arrow identify the Create new Chapter card."><figcaption>Select Create new Chapter.</figcaption></figure>
 
-You'll then be asked to preview the crop for the cover image:
+## 3. Add a title and choose a cover
 
-<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.07.01.png" alt=""><figcaption></figcaption></figure>
+Enter a **Title**. Under **Cover image (optional)**, select **Choose image** if you want a cover on your Chapter card. You can also skip the cover and add one later.
 
-Then, move the selection to your desired crop, click on 'Use cropped image' after you're happy with the looks:
+<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.06.03.png" alt="Annotated Create Chapter dialog highlighting the Title field and Choose image control."><figcaption>Give your Chapter a title, then choose an optional cover.</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.07.29 (1).png" alt=""><figcaption></figcaption></figure>
+Select the image you want from your device.
 
-Then, click on 'Create Chapter'
+<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.06.37.png" alt="Device file picker used to choose an image for the Chapter cover."><figcaption>Choose the image you want to crop.</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.08.00.png" alt=""><figcaption></figcaption></figure>
+## 4. Adjust the crop
 
-You'll then be brought to Chapter Editor page! Please go to [overview-of-chapter-editing-tools](overview-of-chapter-editing-tools/ "mention")for more information on how to add elements into your chapter!
+The **Adjust image crop** dialog opens with a **3:4** portrait selection for the Chapter card.
 
-<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.08.21.png" alt=""><figcaption></figcaption></figure>
+Move or resize the highlighted area to frame your subject. Use **Smaller selection**, **Larger selection**, or **Reset** to adjust it, and check **Selected crop** on the right. Only the selected area will be saved as a still image.
+
+<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.07.01.png" alt="Adjust image crop dialog showing a 3:4 selection and the Selected crop preview."><figcaption>Move the selection and check the portrait preview.</figcaption></figure>
+
+When you are happy with it, select **Use cropped image**.
+
+<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.07.29 (1).png" alt="Orange arrow and outline highlight Use cropped image after adjusting the Chapter cover selection."><figcaption>Confirm the crop to return to Create Chapter.</figcaption></figure>
+
+**Cancel** closes the crop dialog without accepting the new selection. After accepting a crop, you can use **Change image** to choose and crop another image, or **Discard** to create the Chapter without this cover.
+
+## 5. Save your Chapter
+
+Check the cover thumbnail, then select **Create Chapter**. Confirming the crop alone does not create the Chapter; this final step uploads the selected cover and saves your Chapter.
+
+<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.08.00.png" alt="Annotated Create Chapter dialog showing the chosen cover thumbnail and highlighted Create Chapter button."><figcaption>Select Create Chapter when the title and cover are ready.</figcaption></figure>
+
+Wait for the upload and save to finish. Your Chapter editor then opens.
+
+<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.08.21.png" alt="Chapter editor with the new Chapter title, empty canvas, and Design Tools panel."><figcaption>Your new Chapter is ready for content.</figcaption></figure>
+
+The card cover and the banner inside your Chapter are separate images. To add the wide banner, follow [Chapter cover and banner image](chapter-cover-and-banner-image.md). To build your page, explore the [Chapter editing tools](overview-of-chapter-editing-tools/README.md).

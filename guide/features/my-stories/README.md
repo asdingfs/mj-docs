@@ -1,58 +1,27 @@
 # My Stories
 
-**My Stories** turns your experiences into clear, meaningful narratives for the people you want to reach. A 'Story' is a collection of meaningful chapters that you personally curate to better tell a particular story to a particular audience.
+A Story is a collection of Chapters chosen for a particular audience. Bring together the experiences that help someone understand your interests, strengths, or next direction.
 
-### Navigating to My Stories (Web)
+One Chapter can belong to several Stories. Updates to that Chapter are shared across those Stories; use a separate copy if you need different content.
 
-To navigate to My Stories, you can click on the top navigation bar:
+## Find My Stories
 
-<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.26.29.png" alt=""><figcaption></figcaption></figure>
+On a desktop, select **My Stories** in the top navigation.
 
-### Navigating to My Stories (Mobile)
+<figure><img src="../../.gitbook/assets/Clipboard - 2026-09-18 18.26.29.png" alt="Orange outline and arrow identify My Stories in the desktop navigation."><figcaption>Select My Stories in the top bar.</figcaption></figure>
 
-Or under the hamburger icon menu: (if you're accessing it from smaller screen sizes, e.g. mobile view)
+On a smaller screen, open the menu at the top left, then select **My Stories**.
 
-<figure><img src="../../.gitbook/assets/00a.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/00a.jpg" alt="Orange arrow points to the menu button at the top left of the mobile page."><figcaption>Open the navigation menu.</figcaption></figure>
 
-and then click on My Stories
+<figure><img src="../../.gitbook/assets/00b.jpg" alt="Orange outline highlights My Stories in the open mobile navigation menu."><figcaption>Select My Stories from the menu.</figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/00b.jpg" alt=""><figcaption></figcaption></figure>
+## Choose your next step
 
-### 'My Stories' tab overview
+- [Select a Story](selecting-a-story-to-work-on.md).
+- [Create a Story](creating-a-story.md).
+- [Customise its header](customising-a-storys-header.md).
+- [Add and arrange Chapters](managing-chapters-inside-a-story.md).
+- [Publish and share](publishing-and-sharing-a-story.md).
 
-You'll see this page once you have navigated in
-
-<figure><img src="../../.gitbook/assets/01.jpg" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-Curating your story is a lot easier if you have previously created some chapters in [my-chapters](../my-chapters/ "mention")! That's why MyJourney team highly encourage you to take a small, but consistent and frequent step to clarify the story of your life, one chapter at a time!
-{% endhint %}
-
-Then reuse and arrange them for a specific audience. Your experiences stay yours. The story changes with the opportunity.
-
-### Make each story feel right
-
-Choose the chapters that show what matters most. Add a clear title. Keep the focus on the message you want someone to remember.
-
-For example, you could create:
-
-* **Portfolio for employers** — projects, skills, and results that show how you work.
-* **Finding my passion** — key moments that led you towards a field or cause.
-* **Exchange application** — experiences that show curiosity, adaptability, and cultural openness.
-* **Internship introduction** — relevant learning, teamwork, and goals for your next step.
-* **My leadership journey** — times you guided a team, started something, or made change happen.
-* **From challenge to growth** — setbacks that taught you resilience and new skills.
-
-One chapter can belong in many Stories. A group project may show teamwork for an internship. The same project may show creativity in a portfolio. Pick the angle that fits your audience.
-
-{% hint style="info" %}
-Fab.io’s tip: keep each Story focused. A few strong chapters tell a clearer story than everything at once.
-{% endhint %}
-
-### A simple way to begin
-
-1. Think about who will read your Story.
-2. Decide what you want them to understand about you.
-3. Select the chapters that make that message shine.
-
-Your journey has many sides. My Stories helps you share the right one, at the right time.
+**Journey tip:** Start with the person who will read your Story. A few well-chosen Chapters can make your message clearer.
