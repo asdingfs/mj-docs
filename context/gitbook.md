@@ -1,51 +1,27 @@
 # GitBook integration findings
 
-Verified against current official GitBook documentation on 22 September 2026. Research only; neither repository nor the GitBook account was changed.
+Verified 23 October 2026 against official GitBook documentation. Keep live-account observations distinct from product documentation.
 
 ## Configuration and preservation
 
-- `gitbook-docs.yaml` defines site structure and maps spaces to repository directories. `.gitbook.yaml` remains supported and configures an individual space; it is not an obsolete alternative to the site file. `SUMMARY.md` defines a space’s navigation.
-- Space identity depends on `key`. Changing an existing key creates a replacement space with a different ID and detaches the original. Restoring the old key does not restore that original space identity. Keep existing keys permanently.
-- `hidden` hides a space from site navigation; it does not establish a private publishing boundary.
+- `gitbook-docs.yaml` defines site structure and maps spaces to repository directories. `.gitbook.yaml` configures one space; `SUMMARY.md` defines its navigation.
+- Preserve existing `key` values. Changing a key creates a replacement space and detaches the original; titles and paths can change without replacing it.
+- `hidden: true` hides a space from site navigation. GitBook's documented schema does not support `draft` on sections or spaces; Draft is a UI setting and does not set account permissions.
 
 Source: [Content configuration](https://gitbook.com/docs/docs-as-code/git-sync/content-configuration).
 
-Local observation updated 23 October 2026: `mj-docs/gitbook-docs.yaml` maps Guide (`space-1`, URL path `product`, default) to `./guide`; Changelog (`space-2`, hidden) to `./changelog`; Help Center (`space-3`, path `help`) to `./help`; and Contracts (Private) (`space-4`, path `api-reference`, draft) to `./api-docs/api-reference`, under MyJourney - APIs (`section-2`, path `api`, draft). Preserve these keys and mappings.
+Local mapping: Guide (`space-1`, `product`) → `./guide`; Changelog (`space-2`, hidden) → `./changelog`; Help Center (`space-3`, hidden) → `./help`; Contracts (Private) (`space-4`, `api-reference`) → `./api-docs/api-reference`, under MyJourney - APIs (`section-2`, `api`). Preserve these keys and paths.
 
-## API contract privacy
+## Current API site and access
 
-On 23 October 2026, the live GitBook UI showed site `site_Yi3HL` as unpublished. MyJourney - APIs was explicitly marked Draft, and the confirmation stated that a draft section will not be visible when the site is published. The local parent section now preserves this draft state as well as the existing draft Contracts space.
+On 23 October 2026, the GitBook UI showed site `site_Yi3HL` unpublished and MyJourney - APIs marked Draft; the UI confirmed Draft sections are excluded when the site is published. Git Sync connects `asdingfs/mj-docs` on `main`. Its prior sync failed with `Failed to parse site configuration — "site.structure.1": expected to match one`. The owner approved removing unsupported `draft` fields and `hidden: true` from the Contracts mapping; verify successful sync and page placement before closing the audit item.
 
-The live API space `94qtMA6iQNr77FPOir4o` still showed the Petstore template, not the local Contracts title. Its Share panel listed one MyJourney Team administrator account and inherited organisation access (1 out of 1 members). Account-exclusive access and guest-link state were not fully verified. Draft exclusion protects the publishing boundary; Markdown cannot enforce account permissions or repository privacy. Keep this separate from hiding navigation. Before syncing or claiming access is limited to one account, resolve the live mapping and the access audit items in [audit.md](audit.md).
+The Contracts Share panel showed inherited organisation access (1 of 1 members), the MyJourney Team administrator, and guest-link invites off. This is not an account-specific ACL. An unpublished site and Draft section keep the content out of public publication; repository and workspace access are separate. See [audit.md](audit.md) before claiming exclusive account access.
 
-## Keeping context unpublished
+## Page placement, sync and review
 
-Each mapped space syncs only its assigned directory; sibling directories are unavailable through that space’s `root` setting. Keep assets inside their respective mapped directories. If moving a directory later, update files and mapping in the same commit while retaining the key.
+To add a page, put its Markdown inside the target space's mapped `content.directory` and add it exactly once to that space's `SUMMARY.md`. The SAMS contract uses `api-docs/api-reference/`; its page link belongs in `api-docs/api-reference/SUMMARY.md`. Reuse the existing site section and space; do not make a new GitBook key for each page. Keep `context/` outside mapped directories and do not link it from published pages.
 
-Source: [Monorepos](https://gitbook.com/docs/docs-as-code/git-sync/monorepos).
+Git Sync uses a selected repository and branch. A push or merge to that branch can update GitBook immediately; initial sync can replace content, so verify the connection and mapping first. Treat it as a publication boundary. GitBook PR previews require a published site and GitHub app PR-read access; authenticated-access sites do not support them. A local render approximates Markdown but does not certify GitBook rendering.
 
-Application to this repository (inference): keep `context/` at the repository root, beside `guide/`, `help/`, and `changelog/`, with no mapping and no links from published pages or summaries. This keeps it outside those published content roots, provided the live account uses the shown mapping. Merely hiding context in navigation would not suffice. Repository visibility remains separate: unpublished context is readable wherever repository access permits. Do not store secrets there.
-
-## Review and preview
-
-GitBook generates a preview status URL for a GitHub PR targeting a synced branch when its GitHub app has the required PR read permissions. Preview readers need a GitBook account. The docs site must be published; authenticated-access sites do not support Git Sync PR previews. Fork previews are disabled by default.
-
-Source: [GitHub pull request preview](https://gitbook.com/docs/docs-as-code/git-sync/github-pull-request-preview).
-
-GitBook change requests support split or inline content diffs. Merging applies changes to live docs immediately; subsequent corrections require another change request.
-
-Source: [Change requests](https://gitbook.com/docs/collaborate/change-requests).
-
-GitBook’s quickstart also documents desktop/mobile previews and says merging a repository PR updates the GitBook content and the live site when published.
-
-Source: [Quickstart](https://gitbook.com/docs/getting-started/quickstart).
-
-## Sync and publication implications
-
-Git Sync connects a selected repository and branch, then synchronizes commits back to GitBook. Initial GitHub-to-GitBook sync can replace existing content, including replacing a section with empty repository content. Inspect the current connection before attempting any setup or reconfiguration. The setup article mentions `docs.yaml`, while the dedicated configuration and monorepo articles consistently specify `gitbook-docs.yaml`; preserve the existing file and use the dedicated configuration reference.
-
-Source: [Enabling GitHub Sync](https://gitbook.com/docs/docs-as-code/git-sync/enabling-github-sync).
-
-Recommended review workflow: prepare a separate candidate and exact diff; review rendered pages; apply approved changes to a dedicated branch; use a same-repository PR for GitBook’s native preview; obtain approval of the final diff and preview before merging into the synced branch. Treat a direct push to that branch as a possible publication action, not a harmless backup.
-
-Not verified from local files: GitBook account/site URL, current connected branch, actual live content mapping, publication/audience settings, GitHub app permissions, branch protections, merge rules, or preview availability. A local render is useful for content review but cannot certify GitBook-specific rendering or live integration behavior.
+Sources: [Enabling GitHub Sync](https://gitbook.com/docs/docs-as-code/git-sync/enabling-github-sync), [Monorepos](https://gitbook.com/docs/docs-as-code/git-sync/monorepos), [GitHub pull request preview](https://gitbook.com/docs/docs-as-code/git-sync/github-pull-request-preview), [Quickstart](https://gitbook.com/docs/getting-started/quickstart).

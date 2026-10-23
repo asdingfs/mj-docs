@@ -20,6 +20,10 @@ For new captures supplied later, use a demo state, confirm the matching version,
 
 Adapted from the Research skill: use official documentation, trace claims to primary sources, and retain a concise cited note. Use independent background research when available and useful. Keep live-account observations separate from documentation claims. Preserve the current space keys and paths. Verify the actual synced branch before any remote action.
 
+## Add a page to the GitBook site
+
+Put each new page under the target space's existing `content.directory` in `gitbook-docs.yaml`, then add it exactly once to that space's `SUMMARY.md`. This links the Markdown page into its GitBook navigation; verify the mapped space, site section and page after sync. Reuse the existing section and space keys and paths. `hidden: true` removes a space from site navigation; privacy and Draft status are controlled in GitBook settings, not Markdown. Keep `context/` outside all mapped directories. Check the documented config schema, synced repository/branch, exact diff and rendered preview before syncing; treat a push or merge to that branch as a publication boundary.
+
 ## Check and review
 
 Run `scripts/check_docs.py` against the candidate with the explicit code-root path. Review affected pages and their images in the local content preview. The preview approximates Markdown content, not GitBook's renderer. Use GitBook's native PR preview when the existing connection supports it. Present remaining limitations alongside the exact diff.
