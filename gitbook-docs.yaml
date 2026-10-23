@@ -31,8 +31,9 @@ site:
             directory: ./help
     - type: section
       key: section-2
-      title: API Docs
-      path: api-docs
+      title: MyJourney - APIs
+      path: api
+      description: ""
       children:
         - type: space
           key: space-4
