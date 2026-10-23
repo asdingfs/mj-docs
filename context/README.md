@@ -21,5 +21,6 @@ Read this index first; load only the files needed for the task.
 - [Screenshot register](screenshots.md): reuse and replacement decisions.
 - [GitBook research](gitbook.md): sync, publishing boundaries, and native preview.
 - [Accepted direction / draft brief](brief.md): project rationale and review criteria.
+- [SAMS Syncing API draft](../api-docs/api-reference/sams-syncing-api.md): owner requirements and proposed contract for IT/SAMS review; implementation is not authorised by this draft.
 
 `context/` is internal repository guidance. Never map it to a GitBook space or link to it from published content. Repository access controls are separate from publication.

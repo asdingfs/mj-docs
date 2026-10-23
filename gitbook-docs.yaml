@@ -34,6 +34,7 @@ site:
       title: MyJourney - APIs
       path: api
       description: ""
+      draft: true
       children:
         - type: space
           key: space-4

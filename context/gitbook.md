@@ -10,7 +10,13 @@ Verified against current official GitBook documentation on 22 September 2026. Re
 
 Source: [Content configuration](https://gitbook.com/docs/docs-as-code/git-sync/content-configuration).
 
-Local observation: `mj-docs/gitbook-docs.yaml` maps Guide (`space-1`, URL path `product`, default) to `./guide`; Changelog (`space-2`, hidden) to `./changelog`; and Help Center (`space-3`, path `help`) to `./help`. Preserve these keys and initial mappings.
+Local observation updated 23 October 2026: `mj-docs/gitbook-docs.yaml` maps Guide (`space-1`, URL path `product`, default) to `./guide`; Changelog (`space-2`, hidden) to `./changelog`; Help Center (`space-3`, path `help`) to `./help`; and Contracts (Private) (`space-4`, path `api-reference`, draft) to `./api-docs/api-reference`, under MyJourney - APIs (`section-2`, path `api`, draft). Preserve these keys and mappings.
+
+## API contract privacy
+
+On 23 October 2026, the live GitBook UI showed site `site_Yi3HL` as unpublished. MyJourney - APIs was explicitly marked Draft, and the confirmation stated that a draft section will not be visible when the site is published. The local parent section now preserves this draft state as well as the existing draft Contracts space.
+
+The live API space `94qtMA6iQNr77FPOir4o` still showed the Petstore template, not the local Contracts title. Its Share panel listed one MyJourney Team administrator account and inherited organisation access (1 out of 1 members). Account-exclusive access and guest-link state were not fully verified. Draft exclusion protects the publishing boundary; Markdown cannot enforce account permissions or repository privacy. Keep this separate from hiding navigation. Before syncing or claiming access is limited to one account, resolve the live mapping and the access audit items in [audit.md](audit.md).
 
 ## Keeping context unpublished
 

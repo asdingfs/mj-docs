@@ -7,7 +7,7 @@
     "help",
     "changelog"
   ],
-  "gitbook_config_sha256": "01d12ac5a0923b93efa9079db9298e482c0bbdce1d6edea0b240c415ec1c3f86",
+  "gitbook_config_sha256": "9af867a9542b5d9da849d84e5478fde0298621b394388232ce0bfa134a2a8d16",
   "pages": {
     "guide/README.md": "2f4eaaa747774b8a2f21c966c479d5edbd588bde9ec68e429699831e9efa46d6",
     "guide/about/what-is-myjourney.md": "7902acbe8b5de20bd5600170033ae9839906d689f29b186ebb9bfd4abaa8b6ac",
@@ -208,5 +208,22 @@
       ]
     }
   ],
-  "source_ref": "origin/feature/ui-improvement"
+  "source_ref": "origin/feature/ui-improvement",
+  "contracts": {
+    "api-docs/api-reference/sams-syncing-api.md": {
+      "status": "Draft v0.1; owner review followed by IT/SAMS approval; not implemented",
+      "requirements_source": "MyJourney owner discussion, 2026-10-23",
+      "reference_revision": "a7820c36f01afde81d0cb469d9139c5f13afd451",
+      "reference_paths": [
+        "apps/authentication/models.py",
+        "apps/authentication/auth_helpers.py",
+        "apps/authentication/repositories/user_repository.py",
+        "apps/shared/api/client.py",
+        "apps/shared/api/sams_api_client.py",
+        "docs/STORY_CHAPTER_ANALYTICS_QUERIES.md"
+      ],
+      "limits": "Reference code inspection supports reuse and reporting caveats, not a deployed student-sync endpoint. Remote reference freshness and live GitBook mapping remain unverified.",
+      "publication": "API section and Contracts space remain draft; account permissions are separate."
+    }
+  }
 }

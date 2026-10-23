@@ -11,3 +11,5 @@
         kind: openapi
         spec: gitbook-petstore
   ```
+
+* [SAMS Syncing API](sams-syncing-api.md)
