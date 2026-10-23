@@ -41,3 +41,10 @@ site:
           default: true
           content:
             directory: ./api-docs/api-reference
+        - type: space
+          key: space-5
+          title: API Contracts
+          path: api-reference-1
+          draft: true
+          content:
+            directory: ./api-docs/api-reference-1
