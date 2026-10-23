@@ -2,23 +2,42 @@ $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: MyJourney - Docs
   structure:
-    - type: space
-      key: space-1
-      title: Guide
-      path: product
+    - type: section
+      key: section-1
+      title: MyJourney - Docs
+      path: myjourney-docs
       default: true
-      content:
-        directory: ./guide
-    - type: space
-      key: space-2
-      title: Changelog
-      path: changelog
-      hidden: true
-      content:
-        directory: ./changelog
-    - type: space
-      key: space-3
-      title: Help Center
-      path: help
-      content:
-        directory: ./help
+      children:
+        - type: space
+          key: space-1
+          title: Guide
+          path: product
+          default: true
+          content:
+            directory: ./guide
+        - type: space
+          key: space-2
+          title: Changelog
+          path: changelog
+          hidden: true
+          content:
+            directory: ./changelog
+        - type: space
+          key: space-3
+          title: Help Center
+          path: help
+          content:
+            directory: ./help
+    - type: section
+      key: section-2
+      title: API Docs
+      path: api-docs
+      children:
+        - type: space
+          key: space-4
+          title: API Docs
+          path: api-reference
+          default: true
+          draft: true
+          content:
+            directory: ./api-docs/api-reference
