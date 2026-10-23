@@ -26,6 +26,7 @@ site:
           key: space-3
           title: Help Center
           path: help
+          hidden: true
           content:
             directory: ./help
     - type: section
