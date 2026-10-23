@@ -14,7 +14,7 @@ Local mapping: Guide (`space-1`, `product`) → `./guide`; Changelog (`space-2`,
 
 ## Current API site and access
 
-On 23 October 2026, the GitBook UI showed site `site_Yi3HL` unpublished and MyJourney - APIs marked Draft; the UI confirmed Draft sections are excluded when the site is published. Git Sync connects `asdingfs/mj-docs` on `main`. Its prior sync failed with `Failed to parse site configuration — "site.structure.1": expected to match one`. The owner approved removing unsupported `draft` fields and `hidden: true` from the Contracts mapping; verify successful sync and page placement before closing the audit item.
+On 23 October 2026, commit `e50a4ec` synced successfully from `asdingfs/mj-docs` on `main`. The GitBook UI shows **SAMS Syncing API** at `sams-syncing-api` inside Contracts (`space-4`), under MyJourney - APIs (`section-2`). The site `site_Yi3HL` remains unpublished and MyJourney - APIs remains Draft. The Contracts space still contains the Petstore OpenAPI sample pages alongside the SAMS contract.
 
 The Contracts Share panel showed inherited organisation access (1 of 1 members), the MyJourney Team administrator, and guest-link invites off. This is not an account-specific ACL. An unpublished site and Draft section keep the content out of public publication; repository and workspace access are separate. See [audit.md](audit.md) before claiming exclusive account access.
 
