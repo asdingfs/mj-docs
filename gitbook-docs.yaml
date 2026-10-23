@@ -38,6 +38,5 @@ site:
           title: API Docs
           path: api-reference
           default: true
-          draft: true
           content:
             directory: ./api-docs/api-reference
